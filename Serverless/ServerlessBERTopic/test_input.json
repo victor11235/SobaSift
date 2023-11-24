@@ -1,0 +1,25 @@
+{"input":
+  {
+    "request_type": "train",
+    "uid": "userid",
+    "train_emails": [
+      {"uniqueBody": {"content":
+        "Hello, this is a test email."
+      }},
+      {"uniqueBody": {"content":
+        "The product between one and two is two"
+      }},
+      {"uniqueBody": {"content":
+        "This email is for test purposes."
+      }},
+      {"uniqueBody": {"content":
+        "A test email here."
+      }},
+      {"uniqueBody": {"content":
+        "The product between one and one is one"
+      }}
+    ],
+    "train_categories": [0, 1, 0, 0, 1],
+    "access_token": "abc"
+  }
+}
